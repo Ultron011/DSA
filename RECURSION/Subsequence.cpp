@@ -1,9 +1,9 @@
 /*
     Sample Input - 
-
+        [a , b, c]
 
     Sample Output -
-
+        [{}, {a}, {b}, {c}, {a, b}, {b, c}, {c, a}, {a, b, c}]
 */
 
 #include<bits/stdc++.h>
