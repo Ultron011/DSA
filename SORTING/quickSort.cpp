@@ -1,3 +1,15 @@
+/*
+    Time Complexity:
+        Best Case: O(n log(n))
+        Average Case: O(n log(n))
+        Worst Case: O(n^2)
+
+    Space Complexity: 
+        Best Case Space Complexity: O(log(n))
+        Average Case Space Complexity: O(log n))
+         Worst Case Space Complexity: O(n)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
