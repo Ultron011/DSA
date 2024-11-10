@@ -15,18 +15,22 @@ using namespace std;
 
 
 int partition(int arr[], int s, int e) {
-    int pivot = arr[e];
-    int i = s - 1;
-
-    for (int j = s; j < e; j++) {
-        if (arr[j] < pivot) {
+    int pivot = arr[s];
+    int i = s;
+    int j = e;
+    while (i < j) {
+        while (arr[i] <= pivot && i < e) {
             i++;
+        }
+        while (arr[j] > pivot && j > s) {
+            j--;
+        }
+        if (i < j) {
             swap(arr[i], arr[j]);
         }
     }
-
-    swap(arr[i+1], arr[e]);
-    return i + 1;
+    swap(arr[s], arr[j]);
+    return j;
 }
 
 void quickSort(int arr[], int s, int e) {
