@@ -51,6 +51,8 @@ int countInv(int arr[] , int s, int e) {
 
         res += countAndMerge(arr, s, mid, e);
     }
+
+    return res;
 }
 
 void printArray(int arr[], int size) {
