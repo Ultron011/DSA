@@ -6,7 +6,7 @@
         [1, 2, 3, 4, 5] - (Array)
         2 - (No. of times to rotate)
     Output - 
-        [4, 5, 1, 2, 3]
+        [3, 4, 5, 1, 2]
 */
 
 /*
