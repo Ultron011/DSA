@@ -9,7 +9,7 @@
         The array elements should be rearranged in the same order in which they appear in the input 
         but with alternate sign elements right next to each other. In this question, 
         the number of positive and negtives will not be equal. So Add the remaining positive and 
-        negative numbers at the end of the array without alterint its order.
+        negative numbers at the end of the array without altering its order.
 */
 
 /*
