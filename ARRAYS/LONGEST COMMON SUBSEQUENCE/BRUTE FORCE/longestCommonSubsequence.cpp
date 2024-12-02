@@ -38,6 +38,7 @@ bool linearSearch(vector<int> &arr, int key) {
 }
 
 int longestCommonSubsequence(vector<int> &arr) {
+    if (arr.size() == 0) return 0;
     int longest = 1;
     for (int i = 0; i < arr.size(); i++) {
         int x = arr[i];
