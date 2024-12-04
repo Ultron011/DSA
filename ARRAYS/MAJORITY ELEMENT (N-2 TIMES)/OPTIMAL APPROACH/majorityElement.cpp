@@ -25,7 +25,7 @@ using namespace std;
 
 int majorityElement(vector<int> arr) {
     int cnt = 0;
-    int el;
+    int el = INT_MIN;
     for (int i = 0; i < arr.size(); i++) {
         if (cnt == 0) {
             cnt = 1;
