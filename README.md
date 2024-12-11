@@ -48,6 +48,7 @@ Each problem file contains:
   
 ### Algorithms:
 - **Sorting & Searching**
+- **Linked List**
 - **Recursion**
 - **Backtracking**
 
