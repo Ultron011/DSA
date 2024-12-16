@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+  Time complexity - O(n)
+  Space Complexity - O(1)
+*/
+
 int linearSearch(vector<int> arr, int key) {
     for (int i = 0; i < arr.size(); i++) {
         if (arr[i] == key) {
