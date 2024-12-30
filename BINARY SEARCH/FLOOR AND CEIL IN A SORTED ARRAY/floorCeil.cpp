@@ -15,6 +15,14 @@
         The floor of 5 in the array is 4, and the ceiling of 5 in the array is 7.
 */
 
+/*
+    Time Complexity - 
+        O(log(n))
+    
+    Space Complexity - 
+        O(1)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
