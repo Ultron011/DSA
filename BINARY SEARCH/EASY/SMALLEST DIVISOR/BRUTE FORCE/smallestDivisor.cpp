@@ -33,6 +33,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+    Time Complexity - 
+        O(max(arr[])*N), where max(arr[]) = maximum element in the array, N = size of the array.
+
+    Space Complexity - 
+        O(1)
+*/
+
 int smallestDivisor(vector<int> &arr, int limit) {
     int n = arr.size();
     int maxi = *max_element(arr.begin(), arr.end());

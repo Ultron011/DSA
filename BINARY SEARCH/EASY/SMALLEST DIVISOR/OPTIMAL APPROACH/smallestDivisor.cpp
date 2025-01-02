@@ -33,6 +33,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+    Time Complexity - 
+        O(log(max(arr[]))*N), where max(arr[]) = maximum element in the array, N = size of the array.
+
+    Space Complexity - 
+        O(1)
+*/
+
 int sumByD(vector<int> &arr, int div) {
     int sum = 0;
     for (int i = 0; i < arr.size(); i++) {

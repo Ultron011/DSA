@@ -22,6 +22,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+    Time Complexity - 
+        O((max(arr[])-min(arr[])+1) * N), where {max(arr[]) -> maximum element of the array, min(arr[]) -> minimum element of the array, N = size of the array}.
+        
+    Space Complexity - 
+        O(1)
+*/
+
 bool possible(vector<int> &arr, int day, int m, int k) {
     int n = arr.size(); //size of the array
     int cnt = 0;
