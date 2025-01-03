@@ -31,7 +31,7 @@ using namespace std;
         O(n*log(Len)) + O(n), n = size of the given array, Len = length of the answer space.    
     
     Space complexity - 
-        O(n-1)
+        O(1)
 */
 
 int numberOfGasStationsRequired(long double dist, vector<int> &arr) {
