@@ -29,7 +29,7 @@ using namespace std;
 */
 
 int noOf1s(vector<int> &arr, int m) {
-    int low = 0, high = m;
+    int low = 0, high = m - 1;
     while (low <= high) {
         int mid = (low + high) / 2;
         if (arr[mid] >= 1) high = mid - 1;
