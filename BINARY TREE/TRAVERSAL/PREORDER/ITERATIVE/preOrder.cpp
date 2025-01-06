@@ -3,7 +3,7 @@
  * 
  * Problem Statement:
  * Given the root of a binary tree, return the preorder traversal of its nodes' values.
- * Preorder traversal is a type of depth-first traversal where the nodes are recursively visited in this order:
+ * Preorder traversal is a type of depth-first traversal where the nodes are iteratively visited in this order:
  * 1. Visit the root node.
  * 2. Traverse the left subtree.
  * 3. Traverse the right subtree.
