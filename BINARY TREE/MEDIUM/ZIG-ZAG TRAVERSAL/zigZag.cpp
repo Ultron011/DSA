@@ -30,7 +30,7 @@ using namespace std;
         O(N) where N is the number of nodes in the Binary Tree.
         
     Space Complexity -
-        O(N) where H is the number of nodes in the Binary Tree.
+        O(N) where N is the number of nodes in the Binary Tree.
 */
 
 struct Node {
