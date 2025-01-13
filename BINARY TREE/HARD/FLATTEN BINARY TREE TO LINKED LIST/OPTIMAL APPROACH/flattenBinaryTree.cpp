@@ -37,7 +37,7 @@ using namespace std;
         O(N) where N is the number of nodes in the Binary Tree. 
 
     Space complexity - 
-        O(H) where H is the height of the Binary Tree.
+        O(1)
 */
 
 struct TreeNode {
