@@ -3,7 +3,7 @@ using namespace std;
 
 /*
     Time complexity - 
-        O(1)
+        O(N)
 
     Space complexity -
         O(H)
