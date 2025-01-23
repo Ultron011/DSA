@@ -4,7 +4,7 @@ using namespace std;
 /*
     Time complexity - O(V + E)
 
-    Space complexity - O(N)
+    Space complexity - O(V)
 */
 
 class Solution {
