@@ -3,11 +3,10 @@ using namespace std;
 
 /*
     Time complexity - 
-        O(M) { for creating the adjacency list from given list ‘edges’} + O(N + 2M) { for the BFS Algorithm} + O(N) 
-        { for adding the final values of the shortest path in the resultant array} ~ O(N+2M), Where N= number of vertices and M= number of edges.
+        O(M) { for creating the adjacency list from given list ‘edges’} + O(N + 2M) { for the BFS Algorithm} ~ O(N+2M), Where N= number of vertices and M= number of edges.
 
     Space complexity -
-        O( N) {for the stack storing the BFS} + O(N) {for the resultant array} + O(N) 
+        O( N) {for the stack storing the BFS} + O(N) 
         {for the dist array storing updated shortest paths} + O( N+2M) {for the adjacency list} ~ O(N+M) .
 */
 
