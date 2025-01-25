@@ -20,7 +20,7 @@ class Solution {
             adj[it[1]].push_back(it[0]);
         }
 
-        vector<int> dist(N, 1e9);
+        vector<int> dist(N, -1);
         dist[src] = 0;
         queue<int> q;
         q.push(src);
@@ -29,21 +29,14 @@ class Solution {
             q.pop();
 
             for (auto it : adj[node]) {
-                if (dist[node] + 1 < dist[it]) {
+                if (dist[it] == -1) {
                     dist[it] = dist[node]+ 1;
                     q.push(it);
                 }
             }
         }
 
-        vector<int> ans(N, -1);
-        for (int i = 0; i < N; i++) {
-            if (dist[i] != 1e9) {
-                ans[i] = dist[i];
-            }
-        }
-
-        return ans;
+        return dist;
     }
 };
 
