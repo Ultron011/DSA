@@ -2,8 +2,8 @@
 using namespace std;
 
 class DisjointSet {
-    public:
     vector<int> size, parent;
+    public:
         DisjointSet(int n) {
             size.resize(n+1, 1);
             parent.resize(n+1);
@@ -48,7 +48,7 @@ class Solution {
 
         int cnt = 0;
         for (int i = 0; i < V; i++) {
-            if (ds.parent[i] == i) cnt++;
+            if (ds.findUPar[i] == i) cnt++;
         }
         
         return cnt;
