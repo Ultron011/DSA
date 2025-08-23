@@ -1,19 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int solve(int n, vector<int> &memo, vector<int>& height) {
-    if (n == 0) return 0;
+int solve(int index, vector<int> &memo, vector<int>& height) {
+    if (index == 0) return 0;
 
-    if (memo[n] != -1) return memo[n];
+    if (memo[index] != -1) return memo[index];
 
-    int jumpOne = solve(n-1, memo, height) + abs(height[n] - height[n-1]);
+    int jumpOne = solve(index-1, memo, height) + abs(height[index] - height[index-1]);
     int jumpTwo = INT_MAX;
-    if (n > 1) {
-        jumpTwo = solve(n-2, memo, height) + abs(height[n] - height[n-2]);
+    if (index > 1) {
+        jumpTwo = solve(index-2, memo, height) + abs(height[index] - height[index-2]);
     }
     
-    memo[n] = min(jumpOne, jumpTwo);
-    return memo[n];
+    memo[index] = min(jumpOne, jumpTwo);
+    return memo[index];
 }
 
 /*
